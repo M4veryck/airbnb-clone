@@ -1,0 +1,26 @@
+$clr-dark: #000;
+$clr-light: #fff;
+$clr-accent: #1cb4e2;
+
+@mixin title($fs) {
+    color: #fff;
+    font-size: ($fs / 16) * 1rem;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: -0.05em;
+    line-height: 1.1;
+}
+
+@mixin link() {
+    background-color: #fff;
+    padding: 14px 24px;
+    border-radius: 7px;
+
+    color: #222;
+    font-size: 15 / 16 * 1rem;
+    font-weight: 600;
+
+    &:hover {
+        background-color: #ebebeb;
+    }
+}
